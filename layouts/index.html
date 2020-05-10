@@ -4,7 +4,11 @@
 </head>
 <body>
   <header>
-    <nav/>
+    <nav>
+        <ul p:each="${items}" var="item">
+          <li>${item}</li>
+      </ul>
+    </nav>
   </header>
   <main>
     main
