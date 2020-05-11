@@ -8,6 +8,10 @@
       <ul p:each="${items}" p:var="item">
         <li>${item}</li>
       </ul>
+      <ul>
+        ${items.map(item) => {"<li>"+item+"</li>"}}
+        <li>${item}</li>
+      </ul>
     </nav>
   </header>
   <main>
